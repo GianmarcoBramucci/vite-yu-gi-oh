@@ -1,10 +1,11 @@
 <template>
   <div>
-
+    <Main/>
   </div>
 </template>
 
 <script>
+import Main from './components/Main.vue'
 import { data } from './data';
 import axios from 'axios';
   export default {
@@ -15,7 +16,7 @@ import axios from 'axios';
       }
     },
     components:{
-
+      Main
     },
     created(){
       axios.get(this.data.apiUrl).then((res)=>{

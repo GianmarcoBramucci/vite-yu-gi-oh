@@ -1,5 +1,5 @@
+@use './variabols' as *;
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
-@use './_variabols.SCSS' as *;
 body{
     background-color: $orage;
 }
