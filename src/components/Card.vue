@@ -1,5 +1,5 @@
 <template>
-    <div class="card-countainer col">
+    <div class="card-countainer">
         <img :src="img" alt="">
         <div class="card-text">
             <h5 class="tittle">{{name}}</h5>
@@ -26,14 +26,15 @@
     text-align: center;
     align-items: center;
     min-height: 70px;
+    width: 100%;
 }
 .tittle{
     color: $white;
 }
 .card-countainer{
     min-height: 200px;
-    
-
 }
-
+img{
+    min-width: 268px;
+}
 </style>
