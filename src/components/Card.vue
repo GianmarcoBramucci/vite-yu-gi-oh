@@ -33,8 +33,9 @@
 }
 .card-countainer{
     min-height: 200px;
+    margin: 20px;
 }
 img{
-    min-width: 268px;
+    width: 100%;
 }
 </style>
